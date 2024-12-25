@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+.topLine{
+    height: 50px;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+.topLineElement{
+    display: flex;
+    align-items: center;
+}
+.element{
+    list-style: none;
+}
+.element a i{
+    /* background-color: #8395a7; */
+    color: #BCBEC0;
+    background-color: #4b4040;
+    height:30px ;
+    width:30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.element a{
+    text-decoration: none;
+}
+
+/* First Navbar */
+.topLineContact{
+    display: flex;
+
+}
+.topLineContact li{
+    list-style: none;
+    margin-right:15px;
+    
+}
+.topLineContact a{
+    color: white;
+    text-decoration: none;
+}
+.topLineContact i{
+    color: #8EC63F;
+    margin-right:5px;
+}
+.topLineContact .navBtn{
+    background-color: #8EC63F;
+    color: black;
+    padding: 5px 10px ;
+    margin: 0px 20px ;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+/* second Navbar */
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 30px;
+}
+.links{
+    display: flex;
+}
+.links li{
+    list-style: none;
+    margin-right: 20px;
+}
+.links li a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+}
+.links li a:hover{
+    font-weight: bold;
+    border-bottom: 2px solid #FEBD19;
+}
+
+
+/* Hero Section */
+.heroSection{
+    height: 550px;
+    background-image: url(/panacloud_website_assets/greenBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content{
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.content h1{
+    font-size: 60px;
+}
+.content p{
+    max-width: 800px;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color: #FEBD19;
+    box-shadow: 0px 2px orangered;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Advantages */
+.advantages{
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+span{
+    color: #668E18;
+}
+.advantages>p{
+    font-size: 18px;
+    color: #bfbabaf9;
+    width: 500px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.advantages ul{
+    display: flex;
+    /* margin-left: 50px; */
+    list-style: none;
+}
+.adImage{
+    width: 180px;
+    height: 180px;
+    background-color: #F1F1F1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50px; */
+    margin: 20px 40px;
+}
+.advantages ul li{
+    text-align: center;
+}
+.advantages ul li p{
+    color: #bfbabaf9;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+/* about section */
+.aboutUs{
+    height: 550px;
+    background-image: url(/panacloud_website_assets/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.aboutUs h2{
+    text-align: center;
+    padding: 30px 0px;
+}
+.aboutUs p{
+    width: 40%;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.aboutContent button{
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+/* Services */
+.services{
+    text-align: center;
+    margin-top: 40px;
+}
+.servicesPara{
+    margin: 10px auto;
+    width: 600px;
+    color: #a4a1a1;
+    font-size: 18px;
+
+}
+.servicesLink{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.servicesLink p{
+    color: #a4a1a1;
+}
+.servicesLink li{
+    background-color: #F2F2F2;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.servicesLink li h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.servicesLink li a{
+    color: #8EC63F;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.circle{
+    color: #EF4136;
+    font-size: 35px;
+    background-color: #FEBD19;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+footer{
+    background-color: #668E18;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+footer a{
+    /* text-decoration: none; */
+    color: #FFFFFF;
+    display: block;
+    /* line-height: 10px; */
+}
+footer .ul{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+footer ul .li1{
+    width: 300px;
+}
+.li1 p{
+    margin: 20px 0px;
+}
+footer .ul ul{
+    display: flex;
+}
+.elements{
+    list-style: none;
+}
+.elements a{
+    text-decoration: none;
+}
+.elements a i{
+    /* background-color: #8395a7; */
+    color: #668E18;
+    background-color: #303030;
+    height:30px ;
+    width:30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+footer ul .li3{
+    padding: 0px 50px;
+    border-left: 2px solid #8EC63F;
+    border-right: 2px solid #8EC63F;
+
+}
+.li2,.li3,.li4{
+    line-height: 30px;
+}
+.li4 h3{
+    margin-top: 30px;
+}
